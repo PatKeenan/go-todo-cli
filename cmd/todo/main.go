@@ -9,7 +9,7 @@ import (
 )
 
 
-var todoFileName = "todoList.json"
+var todoFileName = "../../todoList.json"
 
 func main() {
  task := flag.String("task", "", "Task to be included in list")
